@@ -25,4 +25,10 @@ A Streamlit-based web application that classifies skin lesions into one of seven
 2. Run the train_model.py file. --- python train_model.py
 3. The skin_disease_model.h5 file is created
 4. Then run the app.py file --- python -m streamlit app.py
+
+# Output: 
+Output will show 3 things - 
+1. class
+2. diesease name
+3. confidence score
    
