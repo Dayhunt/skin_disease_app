@@ -14,7 +14,15 @@ A Streamlit-based web application that classifies skin lesions into one of seven
     User-friendly UI powered by Streamlit
 
 # Model Info:
-      Architecture: Custom CNN
-      Input size: 224x224
-      Trained using TensorFlow and Keras
-      Model file: skin_disease_model.h5
+    Architecture: Custom CNN
+    Dataset Link : https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
+    Input size: 224x224
+    Trained using TensorFlow and Keras
+    Model file: skin_disease_model.h5
+
+# How to Run :
+1. Download the datset from Kaggle.
+2. Run the train_model.py file. --- python train_model.py
+3. The skin_disease_model.h5 file is created
+4. Then run the app.py file --- python -m streamlit app.py
+   
